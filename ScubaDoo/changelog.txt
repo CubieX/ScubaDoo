@@ -1,5 +1,7 @@
 Changelog for ScubaDoo by CubieX
 --------------------------------
+V.1.0.1
+- added the alias "scu" for commands
 
-V. 1.0.0
+V.1.0.0
 - Initial version

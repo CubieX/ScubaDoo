@@ -2,12 +2,13 @@ name: ScubaDoo
 main: com.github.CubieX.ScubaDoo.ScubaDoo
 author: CubieX
 softdepend: [PermissionsEx, zPermissions, bPermissions, PermissionsBukkit]
-version: 1.0.0
+version: 1.0.1
 description: Let players breath underwater
 
 commands:
     scuba:
       description: Using ScubaDoo
+      aliases: scu
       usage: /scuba version | reload | help
 
 permissions:

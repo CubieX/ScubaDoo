@@ -1,0 +1,9 @@
+# do NOT change the config version!
+config_version: 1
+# set locale for user dialog messages
+language: de
+# enable debug output
+debug: false
+# maximum Air in seconds. 15 is game default. 0 deactivates the scuba helmet.
+# Maximum is 300 seconds.
+maxAir: 30

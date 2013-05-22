@@ -17,6 +17,7 @@ public class SDCommandHandler implements CommandExecutor
       this.cHandler = cHandler;
    }
 
+   @Override
    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
    {
       Player player = null;
@@ -26,7 +27,7 @@ public class SDCommandHandler implements CommandExecutor
       }
             
       if (cmd.getName().equalsIgnoreCase("scuba"))
-      { // If the player typed /scuba then do the following... (can be run from console also)
+      {
          if (args.length == 0)
          { //no arguments, so help will be displayed
             return false;
@@ -41,7 +42,7 @@ public class SDCommandHandler implements CommandExecutor
             }
             if (args[0].equalsIgnoreCase("reload")) // argument 0 is given and correct
             {            
-               if(sender.hasPermission("teamadvantage.admin"))
+               if(sender.hasPermission("scubadoo.admin"))
                {                        
                   cHandler.reloadConfig(sender);
                   return true;
